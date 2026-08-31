@@ -14,6 +14,21 @@ st.set_page_config(
 )
 
 # ============================================
+# COR DE FUNDO
+# ============================================
+
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #1a3a6b;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# ============================================
 # CAMINHO DA PASTA DO PROGRAMA
 # ============================================
 
